@@ -8,6 +8,6 @@ func TestGetMessage(t *testing.T) {
 	got := GetMessage()
 
 	if got != expected {
-		t.Errorf("GetMessage() = %v, expected: %v\n", got, expected)
+		t.Errorf("got: %v not equal expected: %v\n", got, expected)
 	}
 }
